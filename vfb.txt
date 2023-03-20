@@ -1,0 +1,1122 @@
+﻿[00:00:00.650] - Robbie
+So it would be worth yes.
+
+[00:00:09.700] - Alex
+They all need to be able to.
+
+[00:00:10.690] - Robbie
+Take Markdown or interpret Markdown in some way to links. Because the way this does this now is hideously complicated. I don't know when the last time you looked at this was, but it's like those links are coming from. The ID column has multiple IDs with commerce. Well, I can't remember what the separation thing is, but I think it's several weird characters just to make it work. Do you like the new thumbnails?
+
+[00:00:40.030] - Dario
+Yeah, I was sending that to Alex.
+
+[00:00:41.860] - Dario
+At the beginning of the meeting.
+
+[00:00:42.840] - Dario
+They're very cool.
+
+[00:00:45.070] - Robbie
+They're pain in the bloody ass.
+
+[00:00:47.100] - Dario
+Yeah, I believe you, but they're very nice.
+
+[00:00:49.900] - Robbie
+Yeah, it'll work wise. So yeah, links is probably the thing.
+
+[00:01:00.770] - Dario
+Okay, I'll try to structure the question a little bit. So starting from the for what is concerned, the Term, I believe we already looked into.
+
+[00:01:28.330] - Dario
+This is the archive.
+
+[00:01:36.990] - Dario
+A little bit here.
+
+[00:01:38.160] - Robbie
+Feel free to jump in if you can remember things because at the moment my eyeball is numb. I don't know that my brain is going too well. Apologies.
+
+[00:01:50.530] - Dario
+No problem.
+
+[00:01:55.010] - Dario
+David just said that you can join.
+
+[00:01:56.990] - Dario
+At five if we are still in the meeting.
+
+[00:02:01.270] - Robbie
+Yeah.
+
+[00:02:02.470] - Dario
+Okay.
+
+[00:02:04.470] - Robbie
+It would be useful.
+
+[00:02:08.550] - Dario
+Let me open the project. Yes, this is the one that I wanted to open.
+
+[00:02:14.490] - Dario
+Okay. So I was saying for determining for.
+
+[00:02:16.510] - Dario
+We already discussed the way that the.
+
+[00:02:18.910] - Dario
+Queries will be structured, that it will.
+
+[00:02:20.450] - Dario
+Be the tabular view with the top five queries that will be served by the Termino itself when we do the request for the ID that we have.
+
+[00:02:31.490] - Dario
+To display for the Terminfo.
+
+[00:02:32.850] - Dario
+So for this, I don't have any questions specifically. Nico, if you have any, feel free.
+
+[00:02:39.030] - Dario
+To jump in as well if something is not clear. This stuff was done before you jumped on the project, so I understand that you might have questions, so feel free.
+
+[00:02:53.110] - Dario
+What I was interested specifically is like the query builder itself, a functionality that we have here that is like.
+
+[00:03:03.530] - Dario
+These functions here.
+
+[00:03:05.050] - Dario
+How much of this do you want to retain?
+
+[00:03:08.070] - Dario
+Rob?
+
+[00:03:08.470] - Dario
+How much do we have to it's.
+
+[00:03:10.750] - Robbie
+A bit problematic in the fact that.
+
+[00:03:12.130] - Alex
+This isn't normally the way that people.
+
+[00:03:13.790] - Robbie
+Go into queries and we kind of haven't been selling this as a way to run queries. Would that be correct, Alex?
+
+[00:03:25.010] - Alex
+No one really found it in user testing, for example. So unless we have some numbers, I'm not sure anyone uses it. So yeah, we don't sell it as such.
+
+[00:03:36.450] - Alex
+Yeah, it would be more useful.
+
+[00:03:38.410] - Robbie
+For years we talked about combining the search and query, but I can't think of a nice way of doing that.
+
+[00:03:45.510] - Alex
+Greg wanted search and advanced search because query is confusing a lot of users.
+
+[00:03:51.230] - Robbie
+So I think it would be useful to rename it.
+
+[00:03:54.250] - Alex
+But then you could wrap it up together. Right, you have the search and then I don't know how people normally have an advanced search, like a tick box or something in the search drop down, something like that, but that would be completely different from what we're doing at the moment.
+
+[00:04:05.950] - Robbie
+Yeah, this is probably a user design thing that we probably need help with because I can't think of a nice way of doing this. Otherwise we'd have it already.
+
+[00:04:18.370] - Dario
+Say for me, and I was going straighter. This is one of the things that I will ask Mattel to look at it with Paul and Sarah because they.
+
+[00:04:27.110] - Dario
+Might like first of all, Mattel has.
+
+[00:04:29.190] - Dario
+All the context because I think he's one of the person that designed this stuff originally. And after ten years, I think he matured enough experience to probably find a.
+
+[00:04:41.400] - Dario
+Better solution for it.
+
+[00:04:44.410] - Dario
+So I will say I will translate.
+
+[00:04:47.700] - Dario
+This requirement to them, but then we'll see what they come out of.
+
+[00:04:51.740] - Alex
+It would be nice to come up.
+
+[00:04:52.760] - Robbie
+With a better flow of how this is going to work, because users don't find query as it is. Users.
+
+[00:05:00.090] - Robbie
+If they want to run a query, tend to go to search first and then what? Can't figure out how to run a query from the search term because it kind of just opens up the term info and then that's why we've got the queries stacked out. But whether they realize those are queries is debatable. It would be better if this could be combined into search. So there was then a flow to take you to queries from there. But functionally we still need a way of finding a term, finding what queries are available on that term, running those queries and then combining those queries with other queries.
+
+[00:05:45.950] - Dario
+Okay.
+
+[00:05:54.750] - Robbie
+We still need this functionality.
+
+[00:05:57.000] - Dario
+Yeah, understand.
+
+[00:05:59.170] - Robbie
+It's just the flow of how we get there.
+
+[00:06:01.810] - Dario
+There is another thing that I want to talk rob, there is something that you mentioned recently, probably a month ago, two months ago, that there will be a new type of query that will be dependent on a couple of inputs.
+
+[00:06:14.640] - Speaker 3
+Well, it would be nice to be.
+
+[00:06:16.280] - Robbie
+Able to run a query that requires another variable that you can run that requires another variable. So the one that jumps an easy one would be just if you want to find neurons connected to or coming neurons that have connectivity to the neuron of interest you've got by type, that's the query we have in the other thing that we wouldn't be able to do in this system at the moment.
+
+[00:06:45.400] - Alex
+Okay.
+
+[00:06:45.860] - Dario
+Functionality wise, this will be I'll try to translate the terminology to like flight terminology. This will be a two legged query where basically we run the first one to get the subset of IDs that we can run for the second.
+
+[00:07:00.200] - Robbie
+No, it's not like that.
+
+[00:07:01.830] - Dario
+Okay.
+
+[00:07:02.410] - Robbie
+It's literally a query where you can't run it until you have a question. If you run this query, you're going to need to request, what type do you want? So you're going to have to select. So if you're starting for a neuron, which is an individual running a query, you want to find neurons connected to it of a certain type. You're then going to have to specify what that type is, which is a class search. So you're going to have to give both of those IDs to that query. Then you get results. Okay, so it's basically a way of doing what we're doing now of filtering down queries, but not combining two queries, just running one query as two parts. Is there an easier way of explaining that? Alex.
+
+[00:07:57.510] - Alex
+This is the one that we did at the workshop, right?
+
+[00:07:59.450] - Speaker 3
+Robbie yeah, this is just the first.
+
+[00:08:01.600] - Robbie
+Example I can think of, but yeah.
+
+[00:08:03.290] - Speaker 3
+I mean, it applies to anything.
+
+[00:08:04.680] - Robbie
+If you want to find connectivity, you want to find a query that requires extra.
+
+[00:08:13.050] - Dario
+When you say, this is the one that you did at the workshop, do you have a flow or do you have an example of this one running on VFP connect already.
+
+[00:08:20.140] - Speaker 3
+Yeah.
+
+[00:08:22.830] - Robbie
+This is fine. Connectivity by type. I was planning to add this query into VFP query for you. I'm in the process of doing that.
+
+[00:08:38.310] - Dario
+Okay. Would it be something that I found in the documentation, Rob?
+
+[00:08:43.510] - Robbie
+Yeah, actually, if you just do a search for connectivity by type, literally should if Google is doing its job properly, just click on the API overview, it would be in the Vfb Connect. If it's not, just do a search for by type by underscore type.
+
+[00:09:27.830] - Dario
+I guess.
+
+[00:09:28.890] - Robbie
+Well, if it was on that page, it should have found it. Let me find it for you.
+
+[00:09:39.610] - Alex
+In.
+
+[00:09:40.080] - Robbie
+The VFP connect documentation. There you go. Connect it under the connectomics page. So under APIs connectomics. This one that I'm showing probably not looking. Yeah, it's like the first query in the block. Yes. There you are. By type.
+
+[00:10:04.050] - Dario
+Okay. Get connected neurons. By type.
+
+[00:10:08.290] - Speaker 3
+Okay.
+
+[00:10:11.650] - Dario
+Neuron. Okay.
+
+[00:10:19.010] - Speaker 3
+Yeah.
+
+[00:10:19.670] - Robbie
+So it's a relatively complicated query from specifying it in the me.
+
+[00:10:28.010] - Dario
+Okay. And yeah, the thing that I'm thinking is like for this kind of queries is like what are like, I don't want to use the type time to get people confused, but how many of these type of queries there are that you can run at the moment or.
+
+[00:10:59.380] - Robbie
+Out at least they don't really exist at the moment. I mean, obviously we're not running any on the site. These are just potential types of query that we might want to run in future. I don't want to limit queries to only ever having one term that you can query against because that means that we can't.
+
+[00:11:22.970] - Dario
+Okay, but query wise, how would you like the UI to retrieve?
+
+[00:11:28.370] - Robbie
+I mean, if we were looking at this, probably the easiest way would say that the upstream type is the focus term and then when you try and run the query, it says you need to specify the downstream type.
+
+[00:11:42.050] - Dario
+Okay.
+
+[00:11:45.570] - Robbie
+And we would know what these things are called because in the query specification I've given you, it tells you what the query is. So it's either short form or.
+
+[00:11:59.910] - Speaker 3
+It.
+
+[00:12:00.250] - Robbie
+Tells you what super types the value that goes into that box can have. So that would enable you to do an autocomplete search on that.
+
+[00:12:13.050] - Dario
+Okay.
+
+[00:12:14.170] - Robbie
+If that makes sense.
+
+[00:12:17.690] - Speaker 3
+This is why I've added all that.
+
+[00:12:19.370] - Robbie
+Crazy stuff into the query thing is for this example this sort of example.
+
+[00:12:24.190] - Dario
+So we will let our mind the type of these queries from the takes input of the query that is going to tell us that rather than just getting a short form, it will take two short forms, for instance, in input rather than one.
+
+[00:12:37.460] - Robbie
+Yeah, we should probably I'm thinking it might be an idea to put a label value in there so that we have a user readable bit of text that we can throw at the user okay.
+
+[00:12:53.130] - Speaker 3
+As well.
+
+[00:12:53.660] - Robbie
+Because that's the one thing we don't because short form, I mean, it's a short form you're filling in, but we might want to give some information as to what it is you're giving.
+
+[00:13:02.890] - Dario
+Yeah, I understand.
+
+[00:13:04.810] - Robbie
+So yeah, I might want to modify that a bit, but if that makes sense.
+
+[00:13:09.920] - Dario
+Yeah, it does. Okay, so this is one of the other things that we will have to translate for the design team. So there will be basically the query gets triggered and then it is expected to get a second input from the user in order to run the query.
+
+[00:13:32.050] - Speaker 3
+Yeah.
+
+[00:13:32.520] - Robbie
+So if it needs another query, then you need to give something to the user to say, I need this using the text that the other query gives you and then use the what we call them, use the takes. Shouldn't that be under takes?
+
+[00:13:54.650] - Dario
+This one?
+
+[00:13:55.610] - Robbie
+Yeah.
+
+[00:13:56.890] - Speaker 3
+Oh, yeah.
+
+[00:13:57.450] - Robbie
+So yeah, it's undertakes anyway, those queries.
+
+[00:14:04.190] - Dario
+Hey, David.
+
+[00:14:05.370] - Robbie
+The autocomplete.
+
+[00:14:07.630] - Dario
+Okay, right.
+
+[00:14:08.580] - Robbie
+David, specify queries. How do we want queries to work?
+
+[00:14:15.310] - Dario
+Ah, but I have I have one question that I didn't get completely wrong. It's like, do you want to restrict the subset of ID string short forms that the user can give an input as a second term for the query, or would it be up to the user to give us something correct and then we execute it?
+
+[00:14:43.950] - Robbie
+And if it no, it will be limited by the same set of terms. So there'll be a set of soup loads that limit what the second term will be.
+
+[00:14:54.750] - Dario
+Okay. And then I believe at that point we will have the need to have something similar to the search component that we will search by that super type. Okay, I understand. Now I understand. I'm thinking, okay, Nicole, if you have any questions, feel free to jump in. As I said, I'll bother them as much as possible, but if you see something that is not clear, feel free to ask.
+
+[00:15:35.930] - Alex
+Makes sense from the API point of view. I need to see how the functionality sticks together, but seems fine.
+
+[00:15:49.470] - David
+Okay.
+
+[00:15:54.610] - Robbie
+The plug here doesn't actually work, so I'm now going to have to move to another desk. I'll just carry on. Alex, do you want to talk to David about what flow we discussed for.
+
+[00:16:06.330] - Speaker 3
+The queries and whether there's any yeah, we better check.
+
+[00:16:10.810] - Alex
+We're all on the same page on what we talked about queries.
+
+[00:16:14.870] - Robbie
+The autocomplete brings up another thing that in theory, we could actually approach queries by saying, I want to find a neuron with connectivity and then plop the terms in. There's multiple ways we can go about.
+
+[00:16:30.100] - David
+This, but that's actually what the current compound query does. You can launch that and okay, the first one is filled out, but then the rest of them filled out by how is that any different?
+
+[00:16:42.820] - Robbie
+What I'm saying is you could actually start with the query type. You could say, I want this type of query, and then fill in, which.
+
+[00:16:50.150] - David
+Is actually what we had. We used to have that with a compound query tool anyway. But then the question is, how easy is it for people to actually run the autocompletes to fill in these legs to know what they're doing? I suppose. So in that case, you will already have it's, this type of query. And you wouldn't have a choice at each step. You just do the autocomplete at each.
+
+[00:17:13.210] - Robbie
+Step, the autocomplete, and it would be limited to what results you can get the type that fits into that query.
+
+[00:17:23.150] - David
+If you're querying for new yeah as well, doesn't it? You have sets of queries by type. Okay. Is there something to present there, Alex?
+
+[00:17:39.250] - Alex
+No, this was just the first part talking about so Greg mentioned a while ago, talking about we've got the search and queries, right? And originally when we did UX testing, we had search and query. You could type in a box and then you could choose to do a search or query right. And that was very confusing for users. So now we have two separate things. We have a search with the little magnifying glass and you got your query with your queue. Right. And when we're talking with Greg, I think you were there. I just wasn't too sure what kind of we decided there. But should we go back to having a search but make it more clear that the queries are sort of like an advanced search and allow the users to find it that way, and then we would get into these kind of query stuff from there. Or would you still think we should have query thing happening here? Because I still think it's potentially quite confusing for users.
+
+[00:18:32.890] - David
+Well, one is searching stuff by what it's called, and one is database query, basically.
+
+[00:18:44.390] - Alex
+But I feel like people probably don't know that.
+
+[00:18:47.770] - David
+Yeah, sure. But I think we've thrown around ideas about how to combine this stuff. The only difference now but you can go back to exactly that, the magnifying glass, the queue. Right? Now if you do the queue and you've got no query there at all, actually, if you're not chosen anything, what happens if you click the if you've got no historic query there, what happens if you click the queue.
+
+[00:19:18.210] - Alex
+And you get what's showing here?
+
+[00:19:23.270] - David
+Is there like some default query or something? I'll just reload the whole site to clear out.
+
+[00:19:28.390] - Dario
+No. Okay.
+
+[00:19:33.670] - David
+Now what happens when you click the queue?
+
+[00:19:37.270] - Dario
+I don't have anything I need to compile the query myself. The one that I had before, it.
+
+[00:19:42.920] - David
+Was search for the term that you'd like to so that's already there. Now you can search Lexically.
+
+[00:19:48.910] - Dario
+Yes.
+
+[00:19:50.910] - David
+And then you choose a query. So what's the difference? I mean, what's the difference between what you're proposing and this?
+
+[00:20:00.910] - Alex
+You don't have to know to click on the queue. Basically. It's the difference.
+
+[00:20:07.410] - David
+But then the problem is, okay, so now with the magnifying glass, what's going to happen? So you click on the magnifying glass, then what you need the UI to do. Don't worry about it, just get rid of that. Now you click on the magnifying glass. We've already got kind of slightly complicated. Now click on the magnifying glass. So now when you start typing, this is people are familiar with auto suggest, actually, that's fine. And then you scroll down, you click on something and that's what you've chosen at that point. Is it going to pop something up and say, do you want to run a query or do you want to look at the term? Is that going to be confusing?
+
+[00:20:55.710] - Alex
+Yeah, I think that's when it would happen, you would have it showing up. Maybe you'd have it before the drop down shows up and also after.
+
+[00:21:02.530] - David
+In that sense, how different is that from the fact that we've got a bunch of cam queries on a term?
+
+[00:21:08.150] - Alex
+Like nicer.
+
+[00:21:11.350] - David
+I'm just skeptical. So there's a big question there about UI, about whether that's going to subvert expectations, because now you've got some weird intermediate screen. Every time you search for something, you've got to make a decision which might not be clear what that decision is. I'm wrong. But the other thing I'm actually kind of skeptical of the compound query, of the finely detailed compound query stuff. I thought for a long time this should just be a much simpler faceted search. You run one query and then you do a faceted search. And the facets we've got the facets there, they're the badges. You run a query, you get a bunch of badges at the top. So you're on a term and you can ask something like all the images or whatever the queries are. You don't generally have to press the queue button to do that. The queue button actually, my sense of it really, the main use is that it allows you to go back to your queries. It's actually like a query history, really, and that's really useful and we need that because you run a query, you choose a term from the query, you go and do something.
+
+[00:22:21.220] - David
+Now you're like, I want to do other things without those query results. The queue button is what takes you back there. But when it comes to compound queries, imagine you run a query and then you get a set of all the badges. These are all the different types we've got in there just as a flat list. And then you want to face it on that, so you could face it. But if you've got larvae and adult in there, if you click Larval badge, you've got a facet on lava and you just restrict your tail. If you've got Glutamateurgic on there, you click that. I'm hoping that we'll have some lineage stuff in there and I think that will probably have to be sufficient for the compound queries that we support on a Gui and just give up the idea of I don't know, I mean, you can keep in there as an option. I just think it's really hard for people to run compound queries when they're doing autocomplete searches of thousands and thousands of terms and then having to choose what query these friction.
+
+[00:23:26.130] - Speaker 3
+So these would be on the results list when you would have a list of all the types that are in the gross type column as it is now.
+
+[00:23:36.440] - David
+All the gross types? All the gross types.
+
+[00:23:40.470] - Speaker 3
+And then you just click on you click on a tag and it would filter list by tag by that tag effectively.
+
+[00:23:47.200] - David
+Yeah. And you could click on tag.
+
+[00:23:51.050] - Speaker 3
+That's a filter term on the results list.
+
+[00:23:55.370] - David
+Yeah. And I think that might be sufficient for most people doing compound queries and then for more sophisticated stuff they'll be using an API or something because it just feels it's just a lot for people to be able to manage when you've got thousand terms and you need to choose between them also and choose a query.
+
+[00:24:18.050] - Speaker 3
+Yeah, but do we not want to be able to run queries in future that you specify from a term limited by another term in one?
+
+[00:24:31.830] - David
+Maybe, I mean we've got that. The thing is if you got rid of a queue button right now, let's say, okay, we're going to have one search button because it's confusing to have two. You get rid of the queue button. How do users get back? So the typical workflow is you run a query, you find something in that query list, you look at it and then you think, actually maybe that's not what I want or I want to see some other things from that query list. You want to be able to get back to that table and right now you need some way to get back to that pop up and the queue button. The main use of the queue button I think is to get back there if you're going to merge the two, how do you support that?
+
+[00:25:17.990] - Speaker 3
+Personally, I'm still not hung up on having the results list as a pop up.
+
+[00:25:23.590] - David
+Yeah, actually the other way is to have results list as windows but then they could just proliferate like crazy. That's always been my worry but yeah, I mean getting rid of the results list as pop up potentially gets around that. But I really do think.
+
+[00:25:44.590] - Speaker 3
+It would get you the thing that you've always kind of wanted, which was you can see the results and the images at the same time and do things like that. Yeah, caused as a problem.
+
+[00:25:59.970] - Dario
+They thought of the queries can be kept within the component within the window.
+
+[00:26:04.120] - David
+The container actually one window and the history is kept in there. Like right now they're actually splitting it out as a window does solve the problem then we don't need the new button. But the proposal seems to be to put some extra layer between searching and seeing the term that you found and I do worry that. Is there any precedent for that in other tools we can think of? Is this good GUI design? Would GUI design people go nuts at that suggestion?
+
+[00:26:46.050] - Speaker 3
+I think we're speculatively asking if there is any nice way they could think of doing that. Again, I wouldn't like the idea of something popping up saying, do you want to actually show this term or do you want to run a query? I would like that idea, but you.
+
+[00:27:06.150] - Alex
+Just have the drop. So when you search, you'd still click on what you wanted and it would go straight through and show it to you. But then you can have something at the bottom of the list that's quite clearly separate, which is query or advanced or something like this. So it's not that different from what we had before. So there's not two separate things.
+
+[00:27:24.670] - David
+Now you want to do an advanced you've got a list of terms, you have to select one of those terms before you choose an advanced query. Are you talking about actually on the completely disconnected from what you've just typed, there's a button at the bottom which is basically the queue button, which doesn't seem.
+
+[00:27:43.730] - Speaker 3
+To have a query button on the result somehow.
+
+[00:27:47.130] - David
+But somehow, yes. Either you have on that list I would have thought the default clicking it would go to the term you might have on the right, a queue for each one, and they could actually choose.
+
+[00:27:59.760] - Alex
+To but most people no, that's messy as well.
+
+[00:28:02.200] - David
+Yeah, we've been around around this.
+
+[00:28:05.720] - Alex
+Good point.
+
+[00:28:08.490] - Speaker 3
+Our conclusion was we couldn't think of a nice way of doing that. So we were asking the question of if the development people, if the design people could actually come up with a better flow.
+
+[00:28:18.050] - David
+Yeah, I mean, if they've got a better flow there. But I think popping the window out helps.
+
+[00:28:25.650] - Alex
+Yeah, I think that solves it, really.
+
+[00:28:28.130] - David
+Anyway, yeah. If the assumption is you always run a query from a term and then we just try to prove and clean up. We've already worked on renaming the queries and we're going to work on improving all of that side of things, then you just turn that into a sub window so they're the result.
+
+[00:28:57.290] - Dario
+The only question that I have, David, in the flow that you described, probably I missed this part, what about the compound queries? Is there any preference or visitorata from your side or upside on how we should let the user orchestrate compound queries?
+
+[00:29:21.650] - David
+We could keep what's in there and maybe refine it a bit. I just wonder why compound queries in this sense are actually just.
+
+[00:29:32.390] - Alex
+Would it.
+
+[00:29:32.810] - Speaker 3
+Be simple.
+
+[00:29:37.210] - David
+Switching it mostly to people will refine by faceting? Makes more sense to me.
+
+[00:29:44.240] - Speaker 3
+Yeah, that filters your results.
+
+[00:29:50.490] - David
+So does the second query.
+
+[00:29:56.990] - Speaker 3
+But what I'm wondering is, rather than if we get rid of being able to combine queries willy nilly, we could potentially just add in queries, like find connected neurons by type or things like that that requires a secondary element for you to then get results for.
+
+[00:30:17.940] - David
+Yeah, there are actually some two leg queries that are really useful and we can see that with the API. So we had this one like find all the Gabrielic neurons that turn up some descending neurons.
+
+[00:30:36.810] - Speaker 3
+We could do that now in the API, in the GUI.
+
+[00:30:43.150] - David
+So how would we do that? Is there a small handful of special cases where you might want two elements rather than it being compound your heart?
+
+[00:30:55.490] - Speaker 3
+I'm not going to specify the exact I mean, neuron finding connected neurons by type is just the first query that I came across that uses two parts. But it could be anything. And this is the point we need to design this in now so that we can do this in future. Whether we use it or not straight away is irrelevant. It's just a function we want to have.
+
+[00:31:18.010] - David
+Kind of got it. The problem right now with the compound queries is just that it's possible to run tentacle queries. And we always had this long term idea that we were going to do it with compatible types and that would limit down the set of available queries. Is that something we need to go back to? Because besides that, I don't see anything doing compound queries.
+
+[00:31:44.120] - Speaker 3
+We need to go back to that. Yes. We probably need to say what queries can be combined. So that gets more complicated on the query spec.
+
+[00:32:05.670] - Dario
+I might have an idea that is probably what Paul will propose knowing. Osbrain.
+
+[00:32:13.530] - Alex
+Sorry.
+
+[00:32:14.320] - David
+That's okay.
+
+[00:32:19.790] - Dario
+What if you do sections in the result? So, starting from the concept that if I heard correctly, there is the possibility to merge the query and the search into one single component. And so the entry point for searching anything that is individual ID classes queries as well, it will be the search component will let the user use the search as the focal point for searching for anything. And then the results will be compartmentalized within data or data set or whatever nomenclature we want to use. And then we have another session for queries that are linked to the search items that we have in the search bar. Basically, it will be something similar to what to some extent, all of you have Slack. If you search something on Slack, you will see that Slack is separating the results by messages and then by files, and then by people and then by channels. And it will be a similar concept to what Slack does. We will reapply basically the same to Vfb.
+
+[00:33:29.670] - Speaker 3
+Right, let me say what I think that is. So basically, if you search for medulla, it would give you medulla and it would give you show me neurons in the medulla and other potentially other queries in there. You might have to know what the search term is. You can then populate the queries in the results list as well.
+
+[00:34:06.990] - David
+That's kind of nice that you could potentially have a preview there. I suppose each section you just have a preview of the top five results and these are the various things that are available from a dollar. I quite like that. How would you trigger that versus how does that fit with the I'll show.
+
+[00:34:27.930] - Dario
+My entire screen, David, so we can have an idea. So what we have right now, I clean my search and I go to a chat, whatever, I don't care. So if I go to Figma, the new let me open the other Vsp project that we have built on. So the way that a search has been prototyped in the restyling is actually something very similar to what Slack does ready? Because there is like a focal point in the middle. So what I'm saying is like.
+
+[00:35:16.950] - David
+I.
+
+[00:35:17.350] - Dario
+Search for something that is like whatever term is and then we can separate the results by I don't know, I'm not debating the nomenclature. We can refine this later. But it can be instances, IDs, data set results or whatever, I don't care for now. And then you have another section that is like queries and so everything that is linked to the search term that I just gave to the search, it will return me all the queries available that I have for the search that.
+
+[00:35:50.850] - David
+I did in the we. So we still have auto suggest, but then after the auto suggest there's an intermediate page. I mean, so Flybase does this now you type in the search box and you get a page with all the hits to different things there it's really but in those cases those are the text hits whereas GitHub is the same. If I search GitHub, I'll get this many messages and this many people and this many if I'm searching.org or something. But the difference is now with mixing like Lexical and database searches we could but this really does mean an intermediate screen.
+
+[00:36:33.710] - Speaker 3
+That could be the result drop down.
+
+[00:36:39.230] - David
+It can't be the result drop down because you don't have auto suggest on here. Yeah, you've got to combine this with auto adjust. But how does it combine?
+
+[00:36:50.330] - Speaker 3
+Auto suggest is not enough to suggest terms. It could start filtering as soon as you got down to a couple of results. It could start producing queries and things as well.
+
+[00:37:03.110] - David
+Maybe. I mean, if it's all cached, if we can find a way to do that which is not confusing, maybe the cleanest thing at that point rather than trying to use the auto suggest pop up is to say no, we will have a second rate every search uses a second screen. Now how does that work with our flow right now? Is that second screen a pop up?
+
+[00:37:26.670] - Dario
+Right now it is by we can do that.
+
+[00:37:28.750] - Speaker 3
+I'm just thinking.
+
+[00:37:33.650] - David
+We'Ve already agreed to something else that's a pop up as a sub window on an internal windowing system and it starts to get pop up screens.
+
+[00:37:46.070] - Speaker 3
+I think it should all be pop ups because it's the thing you're doing stuff over the top.
+
+[00:37:54.390] - David
+So I think it comes down to can we get some UI suggestions about how this might work? We would need some this is going back to what I thought. We just reject him. So you run the autocomplete, you choose something. You don't go straight to your screen. You get a bunch of tabs.
+
+[00:38:23.070] - Alex
+Or.
+
+[00:38:23.660] - David
+Sections or something with something.
+
+[00:38:26.430] - Speaker 3
+I would prefer as soon as you get like, results of Medella rather than we then could start putting queries as full listed text in the autocomplete. So you could have you could just have medulla and neurons and neurons expressed in the medulla or images and neurons appear in the medulla.
+
+[00:38:57.130] - David
+As long as it's a smaller list.
+
+[00:39:01.370] - Speaker 3
+As long as the tag at the end says that this is a query rather than.
+
+[00:39:06.510] - David
+Well, I mean, we don't need to call it a query. We can stamp the we could have about medulla images of neurons in medulla. If all of this is in Solar, then we can probably provide previews as well.
+
+[00:39:22.210] - Speaker 3
+We don't really do anything particularly intelligent when we know we've got down to a term, but we could.
+
+[00:39:30.310] - David
+But what in the case of neurons, where we've got a very large number of queries and they keep increasing as well. Does this scale can we group them and only show choose to show preview some grouping ones?
+
+[00:39:46.570] - Speaker 3
+I think you need an exact match in the correct label. I think that would probably be any no.
+
+[00:39:53.700] - David
+So you're the auto suggest you've chosen something and now you've got a second screen.
+
+[00:40:01.330] - Speaker 3
+Okay, this is what I'm saying is my solution would avoid the second screen is what I'm trying to do.
+
+[00:40:08.550] - David
+No, I just am really skeptical that we could make it usable and not really you need a bit of real estate to communicate this stuff. So I think the choice is second screen or not. This is second screen. There isn't a second screen in this case with Slack because there's no auto suggest. As soon as you have auto suggest, I think you've got to split it because then you're scrolling down and choosing something and something happens. What we're saying is that the something will be an intermediate pop up, which hopefully won't be too irritating, but will advertise will be non confusing and advertise all the cool stuff you can do. Maybe if we do the layout right and we ask clever GUI design people, then it won't be too bad. But how do we limit the queries to something that would work for this? And the query text has to be compact enough and everything as well. Right here we've got messages, files, people, channels. It's really clear you're using Slack. You know what those are?
+
+[00:41:19.930] - Speaker 3
+Yeah. I mean, whether we just have a section for queries and then. We have all the query lists because that would probably fit nicer. If you split them out, then you're just going to have a single line per tab, which would just be pointless. Yeah, go back to the connectivity neuron.
+
+[00:41:40.350] - David
+Maybe you just have a set of summary ones. I mean, it might just be so you're on a brain region and you get images, you get term info and you get a little bit of preview of that. Maybe the preview box can still be used there. Maybe the box that we have at the top of the term info could be used to preview that term information. If you're on a brain region. Term information, neurons images might be enough if you're on a neuron class or individual. Yeah, sermon connected neurons. Don't know. I mean that's can we come up with a nice little summary set that would be usable in this scenario? Or are we always going to be in danger of having right now we've got a system we can configure and we will have a note system we can configure easily, where we say here's the query text and here's the query and this is how we configure the results. And we just keep adding those as we find interesting things to do. How do we maintain this if this is a subset and we have more text that we have here, not against it.
+
+[00:43:07.410] - Dario
+I need to think about it, but we can do one thing because we run out of time. I would like to let this one sit for one more week in our brain so that we can think about it. And I don't know your availability, David and Rob and Alex, but I would like to set up another meeting mid sprint with that three of you, plus Nico and possibly Paul or Sarah at least, or maybe Matteo as well, and continue the conversation there. But yeah, I would like to think a little bit for this printer, Rob, if you agree. Also, I'm not going to ask anything to the design team until unless you prefer otherwise, until we the dog just stole something, partner.
+
+[00:44:11.990] - Alex
+When you sleep first.
+
+[00:44:17.290] - Dario
+Until we come up with a desirata. Otherwise I can ask them to explore in what would be feasible from the outcome that I can translate to them as a list of desirata requirement of what we taught today and see what they come up with. I don't know, I can cap them to 10 hours of work or even less, if you would like.
+
+[00:44:40.190] - David
+We have a call on Monday, so maybe we could if you want. I think the only way this will work would be with the second. I just don't think we can budge it all together with next week. You're not around on Monday, the call.
+
+[00:45:02.820] - Dario
+What if we do the week after, Rob? Not this coming Monday, but the next one.
+
+[00:45:07.480] - Speaker 3
+This was for us to have an internal meeting about this okay. Think about this anyway, because I think you probably could get to a solution.
+
+[00:45:20.970] - David
+Okay. We can try and sketch it out for the pair of us. The Monday call, mr. We're not I thought we were discussing the CD maps, but seems super urgent. But not this call again.
+
+[00:45:36.230] - Speaker 3
+Discuss it with Alex and see what you come up with.
+
+[00:45:41.170] - David
+I just think that we might want to roll back some of what we've been doing, like the unannounced arrival of Cdmips, and some of us are fine. I can't see them, and it just.
+
+[00:45:51.690] - Speaker 3
+Seems anyway, I think there's an issue with transparency zone. I can get rid of the transparency, which would solve the problem overnight.
+
+[00:46:02.410] - David
+I just wonder whether the thing is to roll back. The easy thing is to roll back and then I don't know. But I don't know how easy it is to roll back. If we could roll back and then.
+
+[00:46:12.750] - Speaker 3
+Roll back and go back to the old ones.
+
+[00:46:14.880] - David
+If we could roll back and then discuss and roll back and put these on the dev site and then discuss how we clean it up enough to.
+
+[00:46:22.360] - Speaker 3
+Release it, I can't put them on the dev site.
+
+[00:46:25.330] - David
+Very difficult. Okay.
+
+[00:46:27.540] - Speaker 3
+We don't have British stacks.
+
+[00:46:30.070] - David
+Yeah. Okay.
+
+[00:46:32.870] - Speaker 3
+But have a chat with Alex, and I'm happy to abide by your decisions. Okay.
+
+[00:46:38.890] - David
+Yeah.
+
+[00:46:42.790] - Speaker 3
+I can do some work in the evening, so if you let me know what you need done, I can probably do something then so I can start a job and reroll back or something.
+
+[00:46:53.210] - David
+Okay, so there's that. And then we can work on sketching out what a second page might look like, and then we can get as far as we get with that. We might be able to have something. Well, yeah, if we can make a start, Alex. And then maybe you can fill out some more detail, and then we can get that back. If you can get that back, actually, to Dario and these guys, and then that will be enough for them to sketch out how it might work or tell us that it's too complicated, we shouldn't do it.
+
+[00:47:24.780] - Dario
+Yeah, that would be perfect.
+
+[00:47:26.490] - Speaker 3
+Okay.
+
+[00:47:27.370] - David
+That's good. All right, I should go because I'm going to miss my train.
+
+[00:47:31.990] - Speaker 3
+Thank you.
+
+[00:47:35.930] - David
+Actually, the sun's out here.
+
+[00:47:37.390] - Dario
+It's amazing. The midcoff March and I've had quite.
+
+[00:47:45.530] - David
+A zoom meeting for the day. All right.
+
+[00:47:48.750] - Speaker 3
+Have a good weekend.
+
+[00:47:50.070] - David
+Bye bye. You, too.
+
+[00:47:51.790] - Speaker 3
+Thanks.
+
+[00:47:53.150] - Dario
+Thank you. Bye.
+
+[00:47:58.050] - Speaker 3
+Right. Yeah. Protect my Cdmips. Good luck.
+
+[00:48:08.570] - Alex
+I could spend these meetings. Yeah, it's fine. Is there anything you want to tell me about the bits before Monday?
+
+[00:48:16.390] - Speaker 3
+Well, obviously I haven't had time to sort out the orientation thing.
+
+[00:48:20.920] - Alex
+Oh, sure.
+
+[00:48:21.940] - Speaker 3
+Stupidly easy. It's really annoying.
+
+[00:48:24.380] - Alex
+Yeah. But we need to sort out for everything anyway, because the old thumbnails were on those orientations.
+
+[00:48:30.490] - Speaker 3
+Maybe more important, the old thumbnail had a different rotation system that work. It was very manually, but you might.
+
+[00:48:40.350] - Alex
+Have to tell it manually.
+
+[00:48:42.190] - Speaker 3
+If it's over this size, then do this, because I know it's this particular template, but yeah, I should be able to persuade my code to do what I want.
+
+[00:48:53.510] - Alex
+Okay, fine. Yeah. All right, I'll let you go then.
+
+[00:48:59.650] - David
+I'm going to try and get that.
+
+[00:49:00.730] - Speaker 3
+Working over the weekend, by the way, just so you can keep an eye on it. Obviously, the L one is running an import on Jenkins.
+
+[00:49:15.110] - Alex
+Oh, yeah. Do you want to send me the link on Slack or did you already I can't remember.
+
+[00:49:18.060] - Speaker 3
+If you just look on Jenkins, it's.
+
+[00:49:19.310] - Alex
+The only job running I can manage that.
+
+[00:49:22.860] - Speaker 3
+I have blocked thumbnails running at the moment because I don't want it.
+
+[00:49:27.690] - Alex
+Yeah, I know there's still a few missing, but that's probably not an issue if we're still there is some problems.
+
+[00:49:33.020] - Speaker 3
+With some of them. Some of them seem to have the wrong the Nrrd has the wrong voxel size or something.
+
+[00:49:38.830] - Alex
+Is that why they're not getting replaced?
+
+[00:49:41.090] - Speaker 3
+Yeah. So basically any of the ones that are left, I think, are ones that have problems. So, I mean, it's kind of a useful exercise to go through and clear out crap.
+
+[00:49:52.150] - Alex
+So I know it hasn't died because it will keep posting out the number. Does it list every time it imports one thing? Isn't the log going to be absolutely massive?
+
+[00:50:03.470] - David
+Oh, yeah.
+
+[00:50:03.850] - Speaker 3
+No, the log is insanely.
+
+[00:50:05.330] - Alex
+56 megabyte log. Okay.
+
+[00:50:07.430] - Speaker 3
+I have an import that's running that's a day ahead of that, but my only way of checking it there is to go into the container and just do PSX.
+
+[00:50:17.850] - Alex
+Oh, this is the one that died. Sorry. When Jenkins died. Yeah. Okay. Are they going to interfere with each other?
+
+[00:50:25.630] - Speaker 3
+They're on different servers.
+
+[00:50:27.160] - Alex
+Okay.
+
+[00:50:27.790] - Speaker 3
+So I started on a different server, so it's still running.
+
+[00:50:30.240] - Alex
+Is there any resource usage that could go wrong that I should keep an eye on Rancher, or is that a non issue with this?
+
+[00:50:38.130] - Speaker 3
+Basically, if anything goes, I mean, the thing to look on Rancher is the host page. So if you go to Rancher, go to infrastructure and hosts.
+
+[00:50:54.550] - Alex
+Yeah. Which one is it?
+
+[00:50:59.530] - Speaker 3
+What do you mean?
+
+[00:51:00.720] - Alex
+Just check which server.
+
+[00:51:02.420] - Speaker 3
+If any of those servers die and don't come back within an hour, then there's a problem.
+
+[00:51:09.790] - Alex
+What can I do about it? Okay, the thing you could do is.
+
+[00:51:14.430] - Speaker 3
+Actually restart the Jenkins job, because the thing is what? reinitializes all the services is a Jenkins job. And so if the one with Jenkins on stops, it doesn't get deployed to another server, then that can be a problem.
+
+[00:51:32.690] - Alex
+So the server dies, I try and restart Jenkins.
+
+[00:51:35.360] - Speaker 3
+All you need to do is send me a message, and then you will.
+
+[00:51:38.020] - Alex
+Do it in the evening. Okay, fine.
+
+[00:51:39.400] - Speaker 3
+I will fix it.
+
+[00:51:42.230] - Alex
+I'm happy to try and get it running again, but I'm not sure if the server is dead. I'm not sure I can do about it. Okay, that's fine.
+
+[00:51:47.500] - Speaker 3
+You just need to restart Jenkins. Jenkins solves everything. It's got like a million how do I restart Jenkins? So there's a job. I don't even know you got permission. You've got permission to do it.
+
+[00:51:59.570] - Alex
+You gave me some recent well, not recently.
+
+[00:52:02.670] - Speaker 3
+Don't break anything. If you go to Stack All and then do a search for Jenkins and ignore the Jenkins section that it's supposed to be in.
+
+[00:52:16.130] - Alex
+Well, the one that says Jenkins jenkins server and agents.
+
+[00:52:18.820] - Speaker 3
+Yeah. It's not that one.
+
+[00:52:21.240] - Robbie
+I tried to get a new version.
+
+[00:52:22.560] - Speaker 3
+To run it wasn't there's one inside development. That is the main Jenkins server. You can actually just up VFP dev yeah, I see it. Or whatever. It should restart itself, but otherwise upgrade is generally the easiest way to get stuff to run. Upgrade where's?
+
+[00:52:52.260] - Alex
+Upgrade.
+
+[00:52:53.270] - Speaker 3
+It's the little so it's the arrow on the top right? Sort of circle with an arrow up in it.
+
+[00:53:02.690] - Alex
+I've got viewing API. That's not it, is it? No, maybe I haven't got that. Okay. Maybe I'll just let you know.
+
+[00:53:09.960] - Speaker 3
+Do you show me your screen?
+
+[00:53:11.540] - Alex
+Yes. I probably have a note. Yeah, because I'm just thinking, because if this dies, we don't want to wait a whole nother week and then they're going to be like, you guys are useless.
+
+[00:53:19.440] - Speaker 3
+No, that's why I'm saying if you notice anything wrong with it, give me.
+
+[00:53:23.340] - Alex
+Yeah, which is why this is worthwhile.
+
+[00:53:26.010] - Speaker 3
+Because the thing is, it could get to the almost the end unfailable. This might happen again.
+
+[00:53:31.160] - Alex
+Screen one on two.
+
+[00:53:32.560] - Speaker 3
+I'm hoping it won't, because we have I mean, the fappy import did work a couple of weeks ago.
+
+[00:53:40.350] - Alex
+Right?
+
+[00:53:41.070] - Speaker 3
+So if you click on the Jenkins.
+
+[00:53:42.420] - Alex
+Job and this one yeah, I've only got these two.
+
+[00:53:52.050] - Speaker 3
+So you can't upgrade it, but you can't delete the job?
+
+[00:53:54.930] - Alex
+Yes. Will it start?
+
+[00:53:57.730] - Speaker 3
+Don't do that.
+
+[00:54:02.530] - Alex
+What, do you want me to delete it, Robbie? Sorry.
+
+[00:54:04.650] - Speaker 3
+You could delete it if it was sat there and it was initializing or it was failed. You just delete it and the system should restart.
+
+[00:54:16.250] - Alex
+Should respond 200GB. How much have we got on Trive?
+
+[00:54:24.270] - Speaker 3
+Just click on chive.
+
+[00:54:25.880] - Alex
+Is that going to kill it?
+
+[00:54:27.790] - Speaker 3
+Show you what the oh, it's pretty close, isn't it?
+
+[00:54:31.420] - Alex
+Wait, but how is that possible?
+
+[00:54:34.110] - Speaker 3
+Yeah, magic.
+
+[00:54:37.230] - Alex
+So chive is fine. Is that something that's not been cleared?
+
+[00:54:41.110] - Speaker 3
+Reserved that much, actually using it?
+
+[00:54:45.380] - Alex
+I thought reserves showed up on this day. Don't you get reserved? And maybe not on this. No, you don't do but if it's reserved, it can still crash it, can't it?
+
+[00:54:54.710] - Speaker 3
+Yeah.
+
+[00:54:55.670] - Alex
+Okay, well.
+
+[00:54:58.790] - Speaker 3
+Nearly all the other servers have restarted.
+
+[00:55:03.990] - Alex
+Why is it using no CPU at all? Is it the import that's taking the time?
+
+[00:55:09.690] - Speaker 3
+Is this probably there's something wrong with your sockets.
+
+[00:55:16.410] - Alex
+Okay.
+
+[00:55:17.070] - Speaker 3
+Because those two normally I can see it failed, so CPU and storage should be coming through as well. There you go.
+
+[00:55:23.120] - Alex
+I can see it on here? This is on the server. Okay, well, anyway, it can't be high. Must be using one core or something. Okay.
+
+[00:55:32.610] - Speaker 3
+It should have something there. You should be able to hover over it if there was something there.
+
+[00:55:37.410] - Alex
+Okay, so that's not working. But that is shouldn't it be using more cores to get the job done quicker or is it limited by something else?
+
+[00:55:45.110] - Speaker 3
+No, the imports really, like the cat made import is really shit. It uses one core and half the time it's not doing anything because it's just sat waiting for, like a load thing to happen on disk or something.
+
+[00:56:01.370] - Alex
+Okay, so it is hugely inefficient for.
+
+[00:56:03.340] - Speaker 3
+I've been trying to get Tom, I was like, could you not parallel this up and load stuff? Because you could load all the neurons, like, at once.
+
+[00:56:12.030] - Alex
+That's why it's 100%.
+
+[00:56:15.550] - Speaker 3
+It just sits there. It's so slow.
+
+[00:56:18.010] - Alex
+So that's basically 146 of the speed of the server. Basically. Okay. That's why it takes so it could be done in, like less than a day if it takes a week.
+
+[00:56:26.390] - Speaker 3
+I mean, it's this is the thing, though. This is why once you've loaded it, once you've done the import job, we back up the database, then restore it. That takes like a couple of hours.
+
+[00:56:39.750] - Alex
+Yeah, because you're using.
+
+[00:56:43.830] - Speaker 3
+There'S no reason why the import should take that long.
+
+[00:56:48.410] - Alex
+The point is, you're not going to run out of resources. Really?
+
+[00:56:50.680] - Speaker 3
+It's all running on Python single cores.
+
+[00:56:54.490] - Alex
+But Python can multi core quite easily. All right. Apparently not. Okay.
+
+[00:57:00.380] - Speaker 3
+The thing is, they don't ever do it, so they don't care. They export it.
+
+[00:57:05.330] - Alex
+It works in theory.
+
+[00:57:06.690] - Speaker 3
+Care about the import.
+
+[00:57:08.140] - Alex
+Yeah. Okay, fine. Well, at least I know that. So I will see if it dies, I'll restart it if it doesn't work, but I'll kill it and hope it restarts because I can't restart it.
+
+[00:57:17.350] - Speaker 3
+Just let me know and then I'll let you know whether you need to do anything drastic or not.
+
+[00:57:22.020] - Alex
+Okay, fine. I'll just let you know. All right.
+
+[00:57:23.450] - Speaker 3
+At least I know about number, just in case.
+
+[00:57:28.150] - Alex
+Yeah, don't have that from Slack. Just in case. Let me check. Don't think I know any other robbies.
+
+[00:57:41.690] - David
+Thought.
+
+[00:57:47.390] - Alex
+No, I haven't got you. It was all local there, right?
+
+[00:57:54.430] - Speaker 3
+Yeah. But like, halfway through doing it was just like, oh, yeah, there's still more paint. It just pumped in a load more. So it's all gone, like, to the back of my eyeball. I think it's, like, numbing my brain.
+
+[00:58:07.890] - Alex
+I managed to avoid that so far.
+
+[00:58:11.670] - Speaker 3
+It was a full 2 hours of just continuous three people, like root canal.
+
+[00:58:18.830] - Alex
+Or worse than that?
+
+[00:58:19.830] - Speaker 3
+No, because they're doing the capping. So they're capping the two that had the root canal and capping another one that had a temporary filling where it.
+
+[00:58:28.890] - Alex
+Like, corner came off okay.
+
+[00:58:33.370] - David
+At the moment.
+
+[00:58:34.400] - Speaker 3
+So this is one of two appointments. The next one is in two weeks, but this is the one where they're taking impressions of my teeth, then they've ground away all my tooth just to leave, like, a stump, a very sharp stump. And then they've just shoved, basically playdoh on top of it to form a very crude tooth. It's not even a tooth. It's really annoying because it feels like you've got, like, chewing gum round your.
+
+[00:59:00.950] - Alex
+Teeth, not aligned properly.
+
+[00:59:03.270] - Speaker 3
+But if it comes off, I have to get urgent things, get it back on. So nine. I have to be like this for two weeks now. Anyway, they're going to put ceramic caps and it's cost me 1100.
+
+[00:59:19.930] - Alex
+Is that NHS?
+
+[00:59:22.330] - Speaker 3
+No, NHS will put a metal on. I can have a composite tooth.
+
+[00:59:28.590] - Alex
+A whole tooth made out composite. Yeah, fair enough. Yeah.
+
+[00:59:34.990] - Speaker 3
+Black, like metal teeth. Like, if they'd done a if they had a gold option, I would have attempted.
+
+[00:59:42.050] - Alex
+I don't think I do that anymore.
+
+[00:59:43.660] - Speaker 3
+No, they're just ceramic.
+
+[00:59:45.590] - Alex
+Just mercury. Okay, all right. We'll send you a number on site if it's I've done that. All right, then we're sold. And then I'll talk to David, and clearly he's not super happy about the mints. And we'll find out you from there.
+
+[01:00:04.410] - Speaker 3
+Thing is, he's saying to me they're darker, but I think he's just looking at transparency.
+
